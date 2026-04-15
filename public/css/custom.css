@@ -1,0 +1,33 @@
+/* Custom Global Styles */
+
+/* Standard Bootstrap Inputs */
+.form-control, 
+.form-select,
+.form-control:focus,
+.form-select:focus {
+    background-color: #ffffff !important;
+    background-image: none !important; /* Removes default arrow/icon if needed */
+}
+
+/* Choices.js Container */
+.choices__inner {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem !important;
+    min-height: 38px !important;
+}
+
+/* Choices.js search input inside the dropdown */
+.choices__input {
+    background-color: #ffffff !important;
+}
+
+/* List items background */
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
+    background-color: #f8f9fa !important;
+}
+
+.choices__list--dropdown {
+    background-color: #ffffff !important;
+}
