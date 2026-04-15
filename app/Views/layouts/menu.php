@@ -54,7 +54,7 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="<?= base_url('tareas') ?>" data-key="t-login">Lista de Tareas</a></li>
-                        <li><a href="auth-register.html" data-key="t-register">Calendario de Turnos</a></li>
+                        <li><a href="<?= base_url('turnos_ventas') ?>" data-key="t-register">Turnos Ventas</a></li>
                         <li><a href="auth-recoverpw.html" data-key="t-recover-password">Control de Carga</a></li>
                         <li><a href="auth-lock-screen.html" data-key="t-lock-screen">Auxiliar Antiguo</a></li>
                         <li><a href="auth-logout.html" data-key="t-logout">Historial de Tareas</a></li>

@@ -8,4 +8,9 @@ class Tareas extends BaseController
     {
         return view('tareas/index');
     }
+
+    public function turnos_ventas()
+    {
+        return view('tareas/turnos');
+    }
 }

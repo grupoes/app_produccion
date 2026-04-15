@@ -15,3 +15,4 @@ $routes->get('potenciales_clientes', 'Clientes::potencial_cliente');
 $routes->get('registrar-potencial-cliente', 'Clientes::registrar_potencial_cliente');
 
 $routes->get('tareas', 'Tareas::index');
+$routes->get('turnos_ventas', 'Tareas::turnos_ventas');
